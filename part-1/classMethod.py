@@ -9,6 +9,10 @@ class Dice:
         return random.randint(1, self.sides)
 
 
+def rollDice(sides=6):
+    return random.randint(1, sides)
+
+
 d = Dice(90)
 # print(d.roll())
-print(random.randint(1, 90))
+print(rollDice())
