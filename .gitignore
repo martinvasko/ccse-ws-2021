@@ -1,1 +1,4 @@
 part-3/streamlit-sample/.venv/
+**/.ipynb_checkpoints
+**/dnn
+**/hub
